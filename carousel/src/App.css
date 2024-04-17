@@ -1,0 +1,46 @@
+.carousel-container{
+  height: 40vh;
+  width: 50vh;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  /* text-align: center; */
+
+}
+
+.carousel{
+  text-align: center;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.image-container{
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image{
+  height: 100%;
+}
+
+.btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.prev{
+  left: 0;
+  /* transform: translateX(-50%); */
+}
+
+.next{
+  right: 0;
+  /* transform: translateX(-50%); */
+}
